@@ -1,0 +1,51 @@
+<% layout("layouts/boilerplate") -%>
+
+<body>
+  <br> 
+  <div class="head col-md-5">
+    <h2>Click on Your required field </h2> 
+  </div>
+    
+    <div class=" row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 offset-2 ">
+      <% for(let card of allCards) { %>
+         <a href="/cards/<%=card._id %>" class="listing-link">
+          <div class=" card listing-card sting-card col-md-8 ">
+           
+              <div class="card-body newclr">
+                <p class="card-text newclr">
+                  <b><%= card.title %></b> <br/><hr>
+                 <%= card.description %> <br>
+              </p>
+              </div>
+            </div>
+         </a>
+       <% } %>
+     </div>
+  
+
+   <!-- <div class="card col-md-4">
+    <div class="card-header">
+      <b>Featured</b>
+    </div>
+    <div class="card-body">
+      <p class="card-text new">With supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div> -->
+
+
+  <!-- <div class="row card col-md-4 row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
+    <% for(let card of allCards) { %>
+      <a href="/cards/<%=card._id %>" class="listing-link">
+   <div class="listing-card">
+    <div class="card-header">
+      <b>Featured</b>
+    </div>
+    <div class="card-body">
+      <p class="card-text new"><%= card.description %> <br></p>
+    </div>
+   </div>
+      </a>
+    <% } %>
+  </div> -->
+
+</body>

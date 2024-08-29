@@ -1,0 +1,49 @@
+.listing-link{
+    text-decoration: none;
+   }
+
+   .listing-card{
+    /* border:none !important; */
+    padding:5px 5px;
+    margin-bottom: 2rem;
+    /* width: 400px; */
+    /* height: 300px; */
+    text-align: left;
+    }
+    
+    .card-body{
+    padding:0 !important;
+    }
+    
+    .card-text p{
+        font-weight: 400;
+    }   
+
+.newclr{
+    background-color:#F4F6F8;
+}
+
+#show-card{
+    background-color:#DADBF0;
+    /* border: 2px solid black; */
+    height: 300px;
+    margin-top: 100px !important;
+   border-radius: 20px;
+}
+
+.tit{
+    padding: 50px 0;
+    /* background-color: white; */
+    text-align: center;
+}
+
+.head{
+    text-align: center !important;
+    background-color: #DADBF0;
+    padding: 20px 0;
+    margin-left: 290px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+
